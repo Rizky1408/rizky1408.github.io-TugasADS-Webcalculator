@@ -88,8 +88,8 @@ tr:nth-child(even) {
 
 footer {
     background-color: black;
-    width: 80%;
-    margin: 30px auto 0 auto;
+    width: 100%;
+    padding: 2px 2px;
 }
 
 .copyright {
