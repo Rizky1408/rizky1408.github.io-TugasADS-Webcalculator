@@ -88,14 +88,13 @@ tr:nth-child(even) {
 
 footer {
     background-color: black;
-    width: 100%;
-    padding: 2px 2px;
+    margin: 30px auto 0 auto;
 }
 
 .copyright {
     text-align: center;
     color: white;
-    padding: 2px 2px;
+    padding: 2px 0 2px 0;
 }
 
 @media screen and (max-width : 513px) {
@@ -104,6 +103,10 @@ footer {
     }
 
     .history {
+        width: 100%;
+    }
+
+    .copyright {
         width: 100%;
     }
 }
